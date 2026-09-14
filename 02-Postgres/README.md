@@ -16,4 +16,4 @@ This track follows a PostgreSQL playlist by topic. Add a lab to an existing modu
 
 | Module | Status | Evidence |
 | --- | --- | --- |
-| 03-indexes-and-query-plans | Next | `01-real-indexing-demo` |
+| 03-indexes-and-query-plans | Read-side reproduction complete; write study in progress | `01-real-indexing-demo` |
