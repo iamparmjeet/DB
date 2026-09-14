@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:18
+    container_name: pg-indexing
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: indexing_lab
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg-indexing-data:/var/lib/postgresql
+
+volumes:
+  pg-indexing-data:
